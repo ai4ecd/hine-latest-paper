@@ -9,22 +9,51 @@ class Scihub_Downloader:
         try:
             self.pdf_url = self.get_pdf()
         except IndexError:
-            self.pdf_url = None
+            self.pdf_url = self.get_pdf_backup()
+            if self.pdf_url is None:
+                self.downloadable = False
+            else:
+                self.downloadable = True
+
         if self.pdf_url is None:
             self.downloadable = False
-
     def get_pdf(self):
-        baseurl=['https://sci-hub.wf','https://sci-hub.ee', 'https://sci-hub.shop', 'https://sci-hub.se', 'https://sci-hub.st',
+        try:
+            
+            url = f"https://sci-hub.wf/{self.doi}"
+            header = {
+                "authority": "sci-hub.wf", 
+                "referer": "https://sci-hub.wf/", 
+                "user-agent": "Mozilla/5.0"
+            }
+            print(f'first try we choose is :{url}')
+            
+            r = requests.get(url, timeout=10, headers=header)
+            if r.status_code==200 and not  '404' in r.text:
+                soup = BS(r.text, "html.parser")
+                button = soup.select("#buttons > ul > li > a")
+                click = button[1].attrs["onclick"]
+                print('====',click)
+                pdf_url = re.findall(r"href='(.+?)'", click)[0]
+                print('====',pdf_url)
+                
+                pdf_url = pdf_url.replace("\\/", '/')
+                print(f'pdf url is {pdf_url}')
+                return pdf_url
+            else:
+                print(f"404 found ,this doi is not available:{self.doi} in domain :{url}")
+
+        except:
+            print(f"this doi is not available:{self.doi} in domain :{url}")
+    def get_pdf_backup(self):
+        baseurl=['https://sci-hub.ee', 'https://sci-hub.shop', 'https://sci-hub.se', 'https://sci-hub.st',
                 'http://sci-hub.is', 'https://sci.hubg.org', 'https://sci.hubbza.co.za', 'https://sci-hub.ru',
                 'https://sci-hub.hkvisa.net', 'https://sci-hub.mksa.top', 'http://sci-hub.ren', 'https://sci-hub.wf','https://sci-hub.se', 'https://sci-hub.st', 'https://sci-hub.ru', 'https://sci.hubg.org/']
         baseurl=list(set(baseurl))
         while True:
 
             try:
-                
-        
-                # url = f"https://sci-hub.wf/{self.doi}"
-                
+                                
                 domain=random.choice(baseurl)
                 url=domain+'/'+self.doi
                 print(f'this time we choose is :{url}')

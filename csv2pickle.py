@@ -41,8 +41,10 @@ for index, row in data.iterrows():
             'citation': citation,
             'date': date,
             'url1': doi,
+            'url2': '',
+
         })
-        with open('hine.pickle', 'wb') as file:        
+        with open('0.pickle', 'wb') as file:        
             pickle.dump(paper_store, file)
 
         # try:

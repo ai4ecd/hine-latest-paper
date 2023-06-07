@@ -11,6 +11,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 from bs4 import BeautifulSoup
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 if __name__ == '__main__':
@@ -20,7 +21,7 @@ if __name__ == '__main__':
     chrome_driver_path = 'chromedriver.exe'
 
     # Configure proxy settings. If you need...
-    proxy_address = '127.0.0.1:7890'
+    proxy_address = 'socks5://127.0.0.1:1080'
     webdriver.DesiredCapabilities.CHROME['proxy'] = {
         "httpProxy": proxy_address,
         "ftpProxy": proxy_address,
@@ -33,7 +34,7 @@ if __name__ == '__main__':
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36")
 
     # Launch WebDriver with proxy settings
-    driver = webdriver.Chrome(executable_path=chrome_driver_path, options=chrome_options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
     actions = ActionChains(driver)
 
 

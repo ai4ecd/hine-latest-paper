@@ -1,0 +1,92 @@
+10.1111/apa.16133	Profile of minor neurological findings after perinatal asphyxia	Unknown.
+10.3390/brainsci12070847	Assessing the Utility of Neonatal Screening Assessments in Early Diagnosis of Cerebral Palsy in Pret	Unknown.
+10.1080/09593985.2022.2062504	Investigation of the effectiveness of family collaborative physiotherapy programs applied to high-ri	Unknown.
+10.1111/dmcn.15512	Diagnostic accuracy of the Hammersmith Neonatal Neurological Examination in predicting motor outcome	Unknown.
+10.1016/j.jpeds.2020.12.056	Associations Between Early Structural Magnetic Resonance Imaging, Hammersmith Infant Neurological Ex	Unknown.
+10.1038/s41390-022-02310-6	Neurological examination at 32-weeks postmenstrual age predicts 12-month cognitive outcomes in very 	Unknown.
+nan	Spectral Edge Frequency measurements in the first week predict Hammersmith neonatal neurology score 	Unknown.
+10.1111/jpc.16240	Comparison of the neurobehavioural profile of early-preterm infants against term and late-preterm in	Unknown.
+10.1007/s00431-022-04470-3	Neurological assessment of newborns with spinal muscular atrophy identified through neonatal screeni	Unknown.
+10.1136/archdischild-2021-322192	Cerebral perfusion and neurological examination characterise neonatal opioid withdrawal syndrome_ a 	Unknown.
+10.1097/PEP.0000000000000822	Hammersmith Infant Neurological Examination Clinical Use to Recommend Therapist Assessment of Functi	Unknown.
+10.1016/j.earlhumdev.2021.105520	Relationships between early postnatal cranial ultrasonography linear measures and neurobehaviour at 	Unknown.
+10.3390/brainsci12050539	Early Diagnosis of Cerebral Palsy in Low- and Middle-Income Countries	Unknown.
+10.1016/j.earlhumdev.2022.105665	Predictive value of the test of infant motor performance and the Hammersmith infant neurological exa	Unknown.
+10.1111/dmcn.13668	Muscle tone assessments for children aged 0 to 12 years_ a systematic review	Unknown.
+10.1016/j.earlhumdev.2021.105487	The use of neuroimaging, Prechtl's general movement assessment and the Hammersmith infant neurologic	Unknown.
+10.1016/j.jpeds.2022.01.032	Reference Material for Hammersmith Infant Neurologic Examination Scores Based on Healthy, Term Infan	Unknown.
+10.1111/dmcn.15191	Hammersmith Infant Neurological Examination in infants born at term_ Predicting outcomes other than 	Unknown.
+10.1111/dmcn.15201	Hammersmith Infant Neurological Examination in low-risk infants born very preterm_ a longitudinal pr	Unknown.
+10.1007/s00112-022-01542-4	Biomarkers and neuromonitoring for prognosis of development after perinatal brain damage	Unknown.
+10.1097/MD.0000000000029488	Accuracy of the Hammersmith infant neurological examination for the early detection of neurological 	Unknown.
+10.1038/s41598-022-07139-x	Deep learning-based quantitative analyses of spontaneous movements and their association with early 	Unknown.
+10.1038/s41372-022-01432-3	Neurobehavior in low-risk very preterm infants with low medical risk and full-term infants	Unknown.
+10.1371/journal.pone.0256444	Heterogeneous development of children with Congenital Zika Syndrome-associated microcephaly	Unknown.
+10.1136/bmjopen-2021-053646	Early detection of Australian Aboriginal and Torres Strait Islander infants at high risk of adverse 	Unknown.
+10.1111/ene.15768	Type I spinal muscular atrophy patients treated with nusinersen_ 4-year follow-up of motor, respirat	Unknown.
+10.1111/apa. 16133 5	The Hammersmith Infant Neurological Examination_ Concern about low scores in typically developing in	Unknown.
+10.1016/j.jpeds.2022.03.047	The Hammersmith Infant Neurological Examination_ Concern about low scores in typically developing in	Unknown.
+nan	The Hammersmith Score for the neurological assessment of infants	Unknown.
+10.1016/j.pedn.2021.08.017	Assessment of pain and sleep symptoms in children at high risk for cerebral palsy in a pediatric neu	Unknown.
+10.1111/dmcn.15207	Monitoring early neuromotor performance using the Hammersmith Infant Neurological Examination to pre	Unknown.
+10.1097/PEP.0000000000000823	Commentary on Hammersmith Infant Neurological Examination Clinical Use to Recommend Therapist Assess	Unknown.
+10.1186/s12887-015-0439-z	PPREMO_ a prospective cohort study of preterm infant brain structure and function to predict neurode	Unknown.
+10.1177/0883073809333538	Neurological Outcome in Preterm Small for Gestational Age Infants Compared to Appropriate for Gestat	Unknown.
+10.4269/ajtmh.19-0961	Functional Outcomes among a Cohort of Children in Northeastern Brazil Meeting Criteria for Follow-Up	Unknown.
+10.3389/fneur.2022.958682	Long-term predictivity of early neurological assessment and developmental trajectories in low-risk p	Unknown.
+10.1186/s12883-023-03063-3	Assessment of motor function and nutritional status in children with spinal muscular atrophy treated	Unknown.
+10.3390/brainsci11081074	Age of Diagnosis, Fidelity and Acceptability of an Early Diagnosis Clinic for Cerebral Palsy_ A Sing	Unknown.
+10.3390/children9030352	Relationship between Admission Temperature and Risk of Cerebral Palsy in Infants Admitted to Special	Unknown.
+10.1056/NEJMoa2102047	Risdiplam-Treated Infants with Type 1 Spinal Muscular Atrophy versus Historical Controls	Unknown.
+10.1186/s12887-022-03616-4	Attitudes towards the neurological examination in an unwell neonate_ a mixed methods approach	Unknown.
+10.1111/petr.14278	Successful haploidentical hematopoietic stem cell transplantation (HSCT) and durable engraftment by 	Unknown.
+nan	The identity and distribution of Efferia plena (Hine) and E-nemoralis (Hine) (Diptera _ Asilidae)	Unknown.
+10.1016/S2352-4642(21)00100-0	Treatment of infantile-onset spinal muscular atrophy with nusinersen_ final report of a phase 2, ope	Unknown.
+nan	Observations on the behavior of Machimus occidentalis (Hine) and Machimus formosus (Hine) (Diptera _	Unknown.
+10.1016/j.neuroimage.2021.118688	Association between brain structural network efficiency at term-equivalent age and early development	Unknown.
+nan	In memoriam - Maynard Kiplinger Hine	Unknown.
+nan	Maynard K. Hine, DDS, MS - Obituary	Unknown.
+nan	Hine Design fetes new plant	Unknown.
+nan	NOTES ON BIOLOGY OF HYBOMITRA-DAECKEI (HINE) (DIPTERA, TABANIDAE)	Unknown.
+10.1016/j.nmd.2020.12.006	Nusinersen treatment of older children and adults with spinal muscular atrophy	Unknown.
+10.1192/bjp.2020.14	Mapperley Hospital, Nottingham and George Hine_ a creative relationship - psychiatry in pictures	Unknown.
+nan	The impact of Calman-Hine guidelines on surgical practice for lung cancer	Unknown.
+10.1086/225315	PEOPLE, POWER, CHANGE - MOVEMENTS OF SOCIAL TRANSFORMATION - GERLACH, LP AND HINE, VH	Unknown.
+10.1086/352833	A CRITICAL-STUDY OF CONDILLAC TRAITE-DES-SYSTEMES - HINE, EM	Unknown.
+nan	Do Calman_Hine lung cancer multidisciplinary meetings (MDM) achieve their goals regarding surgery_	Unknown.
+nan	PROGRAMMED TEXT IN STATISTICS - HINE, J, WETHERILL, GB	Unknown.
+nan	INTRODUCTION TO PSYCHODYNAMICS - CONFLICT-ADAPTATIONAL APPROACH - HINE, FR	Unknown.
+nan	BEHAVIORAL SCIENCE - SELECTIVE VIEW - HINE, FR, PFEIFFER, E, MADDOX, GL HEIN, PL AND FRIEDEL, RO	Unknown.
+nan	ETHOLOGY OF ASILUS-GILVIPES (HINE) (DIPTERA, ASILIDAE) ASSOCIATED WITH SMALL MAMMAL BURROWS IN SOUTH	Unknown.
+nan	INTRODUCTION TO BEHAVIORAL-SCIENCE IN MEDICINE - HINE, F, CARSON, R, MADDOX, G, THOMPSON, WILLIAMS	Unknown.
+nan	Pre-operative MR imaging in endometrial carcinoma_ implications for Calman-Hine decision-making	Unknown.
+10.3389/fped.2022.989518	The developing brain_ Challenges and opportunities to promote school readiness in young children at 	Unknown.
+nan	THE POLITICAL-ECONOMY OF EUROPEAN-TRADE - AN INTRODUCTION TO THE TRADE POLICIES OF THE EEC - HINE, R	Unknown.
+nan	Award Address (Arthur C. Cope Scholar Award (CSM) Sponsored by Arthur C. Cope Fund). Carbon dichlori	Unknown.
+10.18474/0749-8004-24.4.572	TOXICITY OF FENVALERATE TO 5 UNFED SPECIES OF TABANIDS AND ENGORGED TABANUS-FUSCICOSTATUS HINE (DIPT	Unknown.
+nan	Content filtering of decentralized P2P search system based on heterogeneous neural networks ensemble	Unknown.
+nan	Calman-Hine and the new funding systems in the oncology setting, implementation and progress in Nort	Unknown.
+nan	ROLE OF HORSE FLY (TABANUS-FUSCICOSTATUS HINE) AND STABLE FLY (STOMOXYS-CALCITRANS L) IN TRANSMISSIO	Unknown.
+nan	The evaluation of the effect of a liquid enteral nutrition product; hine e-gel on wound healing in d	Unknown.
+nan	The Eurescom Project HINE (heterogeneous in-house networking environment)_ A cooperation between tel	Unknown.
+10.1136/bmj.310.6983.856	AN AN ETHICAL DEBATE - GENETIC TESTING FOR FAMILIAL HYPERTROPHIC CARDIOMYOPATHY IN NEWBORN-INFANTS -	Unknown.
+nan	Analysis deviation of the absorbed dose of thyroid for Graves' disease with hyperthyroidism treated 	Unknown.
+nan	Commentary on Kewell et al. (2002), Calman-Hine reassessed_ a survey of cancer network development i	Unknown.
+nan	Comparison of the efficiency of biological transmission of Anaplasma marginale (Rickettsiales _ Anap	Unknown.
+10.48095/cccsnn2S24	The functional assessment and tests for children patients with spinal muscular atrophy	Unknown.
+nan	A constructive algorithm for training heterogeneous neural network ensemble	Unknown.
+10.1097/PEP.0000000000000877	Tool Use for Early Detection of Cerebral Palsy_ A Survey of Spanish Pediatric Physical Therapists	Unknown.
+nan	A cultural change in cancer education and training	Unknown.
+10.1016/j.margeo.2021.106653	Oceanic passage of hurricanes across Cay Sal Bank in The Bahamas over the last 530 years	Unknown.
+nan	ACHARAX-ALINAE N-SP, A GIANT SOLEMYID (MOLLUSCA, BIVALVIA) FROM THE LAU BASIN	Unknown.
+nan	Multiple cancer site comparison of adjusted survival by hospital of treatment_ an East Anglian study	Unknown.
+10.1136/bmjopen-2019-032705	Randomised controlled pilot feasibility trial of an early intervention programme for young infants w	Unknown.
+nan	IMMATURE STAGES OF SOME EASTERN NEARCTIC TABANIDAE (DIPTERA), ADDITIONAL SPECIES OF TABANUS-LINNAEUS	Unknown.
+10.1007/s11273-023-09918-3	Groundwater characterization of the eastern Minesing Wetlands in support of the endangered Hine's em	Unknown.
+10.1038/s41390-022-02455-4	Maternal obesity, gestational diabetes mellitus, and diet in association with neurodevelopment of 2-	Unknown.
+10.1016/j.nmd.2022.02.001	Evaluation of real-life outcome data of patients with spinal muscular atrophy treated with nusinerse	Unknown.
+nan	Newly discovered males and new records of the uncommon Neotropical genera Eutabanus Krober and Myiot	Unknown.
+nan	A diagnostic species compendium of the genus Mugilicola Tripathi, 1960 (Copepoda)	Unknown.
+nan	COMPARATIVE-STUDY ON THE ESTIMATION OF ETHANOL IN FERMENTED SAMPLES BY DIFFERENT METHODS	Unknown.
+10.2991/ijcis.11.1.44	Heterogeneous Information Network Embedding based Personalized Query-Focused Astronomy Reference Pap	Unknown.
+nan	Bonamia exitiosa Hine et al., 2001 is proposed instead of B. exitiosus as the valid name of Bonamia 	Unknown.
