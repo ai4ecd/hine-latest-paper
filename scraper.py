@@ -15,7 +15,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 if __name__ == '__main__':
-    with open('list.txt', 'r') as file:
+    filename='journal-list.txt'
+    filename='keywords-list.txt'
+    
+    with open(filename, 'r') as file:
         top_journals = file.readlines()
 
     chrome_driver_path = 'chromedriver.exe'
@@ -32,11 +35,22 @@ if __name__ == '__main__':
     chrome_options = Options()
     chrome_options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36")
+    # chrome_options.add_argument('--headless')  # Run Chrome in headless mode
 
     # Launch WebDriver with proxy settings
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
     actions = ActionChains(driver)
 
+    def build_keyword_url(keyword):
+        keyword_split = keyword.strip()
+        key_str = keyword_split
+        # if len(keyword_split) >= 1:
+        #     for split in keyword_split[0:]:
+        #         key_str += split.strip()+ ' ' 
+
+        # exclude citation
+        # key_str += "&as_vis=1"
+        return key_str
 
     def build_url(journal_name, start_seq):
         journal_split = journal_name.strip().split(' ')
@@ -111,8 +125,11 @@ if __name__ == '__main__':
 
     start_year = 1990
     end_year = 2023
+    if not os.path.exists(filename+'-log'):
+        with open(filename+"-log", "w") as file:
+            file.writelines("")
 
-    with open('log', 'r') as file:
+    with open(filename+'-log', 'r') as file:
         output = file.readlines()
         if len(output) == 2:
             check_journal = output[0]
@@ -146,7 +163,11 @@ if __name__ == '__main__':
 
             # throw in some random move!
             move_to_element(search_box, driver, actions)
-            search_box.send_keys(build_keys(journal))
+            if 'key' in filename:
+                search_box.send_keys(build_keyword_url(journal))
+            else:
+                search_box.send_keys(build_keys(journal))
+                                
             search_box.send_keys(Keys.RETURN)
             sleep(5)
             random_user_action(driver, actions)
@@ -264,12 +285,12 @@ if __name__ == '__main__':
                     else:
                         # end here!
                         print("Year " + str(cur_year) + " of " + journal + "is completed.")
-                        with open("log", "w") as file:
+                        with open(filename+"-log", "w") as file:
                             file.writelines([journal, str(cur_year)])
                         break
                 except:
                     print("Year " + str(cur_year) + " of " + journal + "is completed.")
-                    with open("log", "w") as file:
+                    with open(filename+"-log", "w") as file:
                         file.writelines([journal, str(cur_year)])
                     break
 

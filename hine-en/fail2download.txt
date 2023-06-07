@@ -90,3 +90,32 @@ nan	A diagnostic species compendium of the genus Mugilicola Tripathi, 1960 (Cope
 nan	COMPARATIVE-STUDY ON THE ESTIMATION OF ETHANOL IN FERMENTED SAMPLES BY DIFFERENT METHODS	Unknown.
 10.2991/ijcis.11.1.44	Heterogeneous Information Network Embedding based Personalized Query-Focused Astronomy Reference Pap	Unknown.
 nan	Bonamia exitiosa Hine et al., 2001 is proposed instead of B. exitiosus as the valid name of Bonamia 	Unknown.
+nan	EVALUATION OF ESTIMATION METHODS FOR THE AIR-WATER PARTITION COEFFICIENT	Unknown.
+10.1016/S1470-032(03)02973	Dexamethasone and ursodeoxycholic acid protect against the arrhythmogenic effect of taurocholate in 	Unknown.
+nan	Into the aerospace power millennium	Unknown.
+nan	Previously Non-Illustrated Genitalia of Some Known Asilinae Species (Insecta_ Diptera_ Asilidae)	Unknown.
+10.1590/S0074-02761998000400008	The immature stages of Protodasyapha (Protodasyapha) hirtuosa (Philippi) and their comparison with t	Unknown.
+10.3390/pharmaceutics14102074	Clinical and Electrophysiological Changes in Pediatric Spinal Muscular Atrophy after 2 Years of Nusi	Unknown.
+10.23736/S1973-9087.20.05968-7	The International Classification of Functioning, Disability and Health-Children and Youth as a frame	Unknown.
+10.1055/s-0042-1750719	The Effect of Nusinersen Therapy on Laboratory Parameters of Patients with Spinal Muscular Atrophy	Unknown.
+10.3390/electronics10172075	The Friendly Health Issue Network to Support Computer-Assisted Education for Clinical Reasoning in M	Unknown.
+10.1016/j.braindev.2022.10.006	Long-term efficacy of nusinersen and its evaluation in adolescent and adult patients with spinal mus	Unknown.
+10.18474/0749-8004-32.4.398	Laboratory infection and release of Spiroplasma (Entomoplasmatales _ Spiroplasmataceae) from horse f	Unknown.
+10.1210/clinem/dgab617	Changes in Circulating Kisspeptin Levels During Each Trimester in Women With Antenatal Complications	Unknown.
+10.3354/dao063231	Occurrence of the haemocyte parasite Bonamia sp in flat oysters Ostrea puelchana farmed in San Anton	Unknown.
+10.1038/sj.bdj.4807571	A CLINICAL-TRIAL TO EVALUATE PLAQUE REMOVAL WITH A DOUBLE-HEADED TOOTHBRUSH	Unknown.
+10.1080/03036758.2022.2075401	Hapu Ora (pregnancy wellness)_ Maori research responses from conception, through pregnancy and 'the 	Unknown.
+10.6133/apjcn.202103_30(1).0009	Pectin-containing compared with standard polymeric formula in enteral nutrition_ A randomized contro	Unknown.
+nan	The value of central histopathological review of testicular tumours before treatment	Unknown.
+10.18474/0749-8004-42.2.123	Comparison of two fly traps for the capture of horse flies (Diptera _ Tabanidae)	Unknown.
+10.1038/s41598-021-98099-1	Persistence and accumulation of environmental DNA from an endangered dragonfly	Unknown.
+nan	Health improvement and the RSM	Unknown.
+10.1016/j.braindev.2022.09.008	Evaluation of cerebrospinal fluid biomarkers in pediatric patients with spinal muscular atrophy	Unknown.
+nan	Effect of extracellular sodium concentration on cardiomyocyte swelling and myocardial damage during 	Unknown.
+10.1109/TIA.2022.3207983	Two Cooling Approaches of an Electrohydraulic Energy Converter For Non-Road Mobile Machinery	Unknown.
+10.5194/nhess-22-2289-2022	What drives landslide risk_ Disaggregating risk analyses, an example from the Franz Josef Glacier an	Unknown.
+10.1038/sj.bjc.6600051	A randomized trial of specialist genetic assessment_ psychological impact on women at different leve	Unknown.
+10.4289/0013-8797.123.4.792	SEASONAL FLIGHT ACTIVITY OF ATYLOTUS DUPLEX (WALKER), ATYLOTUS THORACICUS (HINE), AND STONEMYIA RASA	Unknown.
+10.3390/medicina58020213	The Safety and Efficacy of Nusinersen in the Treatment of Spinal Muscular Atrophy_ A Systematic Revi	Unknown.
+10.1016/S2352-4642(21)00287-X	Gene replacement therapy with onasemnogene abeparvovec in children with spinal muscular atrophy aged	Unknown.
+nan	Errors in the absorbed and the administered I-131 therapeutic dose in patients with Graves' disease.	Unknown.
