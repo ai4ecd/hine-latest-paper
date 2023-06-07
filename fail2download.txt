@@ -1,0 +1,52 @@
+10.1111/apa.16133	Profile of minor neurological findings after perinatal asphyxia	NotIncluded.
+10.3390/brainsci12070847	Assessing the Utility of Neonatal Screening Assessments in Early Diagnosis of Cerebral Palsy in Pret	NotIncluded.
+10.1080/09593985.2022.2062504	Investigation of the effectiveness of family collaborative physiotherapy programs applied to high-ri	NotIncluded.
+10.1111/apa.16133	Profile of minor neurological findings after perinatal asphyxia	NotIncluded.
+10.1177/0883073820930487	Disability Prediction by Early Hammersmith Neonatal Neurological Examination_ A Diagnostic Study	NotIncluded.
+10.3390/brainsci12070847	Assessing the Utility of Neonatal Screening Assessments in Early Diagnosis of Cerebral Palsy in Pret	NotIncluded.
+10.1080/09593985.2022.2062504	Investigation of the effectiveness of family collaborative physiotherapy programs applied to high-ri	NotIncluded.
+10.1111/jpc.14205	Evaluation of neurological behaviour in late-preterm newborn infants using the Hammersmith Neonatal 	NotIncluded.
+10.1016/j.ejpn.2012.09.006	Neurological assessment in infants discharged from a neonatal intensive care unit	NotIncluded.
+10.1111/dmcn.14784	Neurodevelopmental outcomes of neonatal non-epileptic paroxysmal events_ a prospective study	NotIncluded.
+10.1111/dmcn.15512	Diagnostic accuracy of the Hammersmith Neonatal Neurological Examination in predicting motor outcome	NotIncluded.
+10.1016/j.jpeds.2020.12.056	Associations Between Early Structural Magnetic Resonance Imaging, Hammersmith Infant Neurological Ex	NotIncluded.
+10.1016/j.ejpn.2020.08.010	Neonatal neurological examination in a resource-limited setting_ What defines normal_	NotIncluded.
+10.1016/j.pediatrneurol.2018.07.002	Hammersmith Infant Neurological Examination Asymmetry Score Distinguishes Hemiplegic Cerebral Palsy 	NotIncluded.
+10.1155/2013/359532	Maturation of Corpus Callosum Anterior Midbody Is Associated with Neonatal Motor Function in Eight P	NotIncluded.
+10.3109/01942638.2015.1135845	Reliability of Neurobehavioral Assessments from Birth to Term Equivalent Age in Preterm and Term Bor	NotIncluded.
+10.1038/s41390-022-02310-6	Neurological examination at 32-weeks postmenstrual age predicts 12-month cognitive outcomes in very 	NotIncluded.
+nan	Spectral Edge Frequency measurements in the first week predict Hammersmith neonatal neurology score 	NotIncluded.
+10.1080/17518423.2021.1941372	The Value of Clinical Examination in Preterm Newborns after Neonatal Sepsis_ A Cross-sectional Obser	NotIncluded.
+10.1016/j.earlhumdev.2014.09.007	Neurological examination combined with brain MRI or cranial US improves prediction of neurological o	NotIncluded.
+10.1111/apa.13066	Cumulative deviance scores can be used as an alternative to the Hammersmith Neonatal Neurological Ex	NotIncluded.
+10.1111/jpc.16240	Comparison of the neurobehavioural profile of early-preterm infants against term and late-preterm in	NotIncluded.
+10.1155/2019/3683548	Short-Term Neurodevelopmental Outcome in Term Neonates Treated with Phenobarbital versus Levetiracet	NotIncluded.
+10.1016/j.earlhumdev.2020.105133	Gestational Age-Specific Distribution of the Hammersmith Neonatal Neurological Examination Scores Am	NotIncluded.
+10.1136/bmjpo-2017-000136	Continuum of neurobehaviour and its associations with brain MRI in infants born preterm	NotIncluded.
+10.1007/s00431-022-04470-3	Neurological assessment of newborns with spinal muscular atrophy identified through neonatal screeni	NotIncluded.
+10.1016/j.earlhumdev.2016.02.006	Neurobehaviour and neurological development in the first month after birth for infants born between 	NotIncluded.
+10.3390/medicina56120649	Neurodevelopmental Outcome in Extremely Low Birth Weight Infants at 2-3 Years of Age	NotIncluded.
+10.1136/archdischild-2021-322192	Cerebral perfusion and neurological examination characterise neonatal opioid withdrawal syndrome_ a 	NotIncluded.
+10.1097/PEP.0000000000000822	Hammersmith Infant Neurological Examination Clinical Use to Recommend Therapist Assessment of Functi	NotIncluded.
+10.1016/j.earlhumdev.2021.105520	Relationships between early postnatal cranial ultrasonography linear measures and neurobehaviour at 	NotIncluded.
+10.1111/dmcn.14084	Brain structure and neurological and behavioural functioning in infants born preterm	NotIncluded.
+10.1016/j.earlhumdev.2017.12.014	Relationship between very early brain structure and neuromotor, neurological and neurobehavioral fun	NotIncluded.
+10.3390/brainsci12050539	Early Diagnosis of Cerebral Palsy in Low- and Middle-Income Countries	NotIncluded.
+10.1002/mus.25705	MOTOR MILESTONE ASSESSMENT OF INFANTS WITH SPINAL MUSCULAR ATROPHY USING THE HAMMERSMITH INFANT NEUR	NotIncluded.
+10.1111/dmcn.12876	Use of the Hammersmith Infant Neurological Examination in infants with cerebral palsy_ a critical re	NotIncluded.
+10.1177/0883073813479171	Correlation of Brain Ultrasonography Scans to the Neuromotor Outcome of Very-Low-Birth-Weight Infant	NotIncluded.
+10.1016/j.earlhumdev.2022.105665	Predictive value of the test of infant motor performance and the Hammersmith infant neurological exa	NotIncluded.
+10.1111/dmcn.13668	Muscle tone assessments for children aged 0 to 12 years_ a systematic review	NotIncluded.
+10.3390/jcm8081247	Early Neurological Assessment in Infants with Hypoxic Ischemic Encephalopathy Treated with Therapeut	NotIncluded.
+10.1111/apa.16133	Profile of minor neurological findings after perinatal asphyxia	NotIncluded.
+10.1177/0883073820930487	Disability Prediction by Early Hammersmith Neonatal Neurological Examination_ A Diagnostic Study	NotIncluded.
+10.3390/brainsci12070847	Assessing the Utility of Neonatal Screening Assessments in Early Diagnosis of Cerebral Palsy in Pret	NotIncluded.
+10.1080/09593985.2022.2062504	Investigation of the effectiveness of family collaborative physiotherapy programs applied to high-ri	NotIncluded.
+10.1111/jpc.14205	Evaluation of neurological behaviour in late-preterm newborn infants using the Hammersmith Neonatal 	NotIncluded.
+10.1016/j.ejpn.2012.09.006	Neurological assessment in infants discharged from a neonatal intensive care unit	NotIncluded.
+10.1111/dmcn.14784	Neurodevelopmental outcomes of neonatal non-epileptic paroxysmal events_ a prospective study	NotIncluded.
+10.1111/dmcn.15512	Diagnostic accuracy of the Hammersmith Neonatal Neurological Examination in predicting motor outcome	NotIncluded.
+10.1016/j.jpeds.2020.12.056	Associations Between Early Structural Magnetic Resonance Imaging, Hammersmith Infant Neurological Ex	NotIncluded.
+10.1016/j.ejpn.2020.08.010	Neonatal neurological examination in a resource-limited setting_ What defines normal_	NotIncluded.
+10.1016/j.pediatrneurol.2018.07.002	Hammersmith Infant Neurological Examination Asymmetry Score Distinguishes Hemiplegic Cerebral Palsy 	NotIncluded.
+10.1155/2013/359532	Maturation of Corpus Callosum Anterior Midbody Is Associated with Neonatal Motor Function in Eight P	NotIncluded.
