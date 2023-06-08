@@ -5,15 +5,10 @@ import os
 import requests
 import urllib3
 import pickle
-from time import sleep
-import itertools
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 import shutil
 import time
-from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-
+from playwright.sync_api import sync_playwright
+from time import sleep
 
 # log config
 logging.basicConfig()
@@ -37,33 +32,24 @@ class SciHub(object):
         self.base_url = self.available_base_url_list[0] + '/'
         self.sess.proxies = {
             "http": 'socks5://127.0.0.1:1080',
-            "https": 'socks5://127.0.0.1:1080', }
+            "https": 'socks5://127.0.0.1:7890', }
 
-        # init a selenium driver :)
-        chrome_driver_path = 'chromedriver.exe'
-        proxy_address = '127.0.0.1:1080'
-        webdriver.DesiredCapabilities.CHROME['proxy'] = {
-            "httpProxy": proxy_address,
-            "ftpProxy": proxy_address,
-            "sslProxy": proxy_address,
-            "proxyType": "MANUAL",
-        }
-        chrome_options = Options()
-        chrome_options.add_argument('--ignore-certificate-errors')
-        chrome_options.add_argument('--allow-running-insecure-content')
-        chrome_options.add_argument('--lang=en-US')
-        chrome_options.add_argument(
-            "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36")
-        chrome_options.add_argument("--headless=new")
-        chrome_options.add_experimental_option('prefs', {
-            "download.default_directory": "E:\\Scholar crawler\\chrome_pdfs",
-            # This is a bug in selenium, you need to specify absolute path.
-            "download.prompt_for_download": False,
-            "download.directory_upgrade": True,
-            "plugins.always_open_pdf_externally": True
-        })
-# Instantiate the Chrome web driver using webdriver_manager
-        self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+        # init a playwright browser and page
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch()
+            context = browser.new_context()
+
+            # Set the user agent
+            context.set_user_agent(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+            )
+
+            # Set the download options
+            context.set_implicit_wait_timeout(5000)
+            context._enable_default_browser_context()
+            page = context.new_page()
+            page.set_default_timeout(5000)
+            self.page = page
 
     def _get_available_scihub_urls(self):
         return ['https://sci-hub.ee', 'https://sci-hub.shop', 'https://sci-hub.se', 'https://sci-hub.st',
@@ -95,7 +81,7 @@ class SciHub(object):
             # Try download !
             shutil.rmtree("chrome_pdfs")
             os.makedirs("chrome_pdfs")
-            self.driver.get(identifier)
+            self.page.goto(identifier)
             direct_succ = False
             sleep_time = 0
             sleep_limit = 5
@@ -129,10 +115,10 @@ class SciHub(object):
         try:
             print("Falling back to scihub.")
             self._change_base_url()
-            self.driver.get(self.base_url + '/' + identifier)
-            btn = self.driver.find_element(By.XPATH,
-                                           "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'save') "
-                                           "or contains(text(), '下载')]")
+            self.page.goto(self.base_url + '/' + identifier)
+            btn = self.page.query_selector(
+                "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'save') "
+                "or contains(text(), '下载')]")
             btn.click()
             sci_succ = False
             sleep_time = 0
@@ -168,10 +154,10 @@ class SciHub(object):
         try:
             print("Falling back to scihub backbone.")
             self._change_backbone_url()
-            self.driver.get(self.base_url + '/' + identifier)
-            btn = self.driver.find_element(By.XPATH,
-                                           "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'save') "
-                                           "or contains(text(), '下载')]")
+            self.page.goto(self.base_url + '/' + identifier)
+            btn = self.page.query_selector(
+                "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'save') "
+                "or contains(text(), '下载')]")
             btn.click()
             sci_succ = False
             sleep_time = 0
@@ -206,7 +192,7 @@ class SciHub(object):
 
     def _generate_name(self, res):
         """
-        Generate unique filename for paper. Returns a name by calcuating 
+        Generate unique filename for paper. Returns a name by calculating 
         md5 hash of file contents, then appending the last 20 characters
         of the url which typically provides a good paper identifier.
         """
@@ -227,7 +213,7 @@ if __name__ == '__main__':
     file_idx = 0
     paper_idx = 0
     success_total_cnt = 0
-        
+
     with open("download_log", 'r') as file:
         checkpoint = file.readlines()
         if len(checkpoint) != 0:
@@ -240,58 +226,40 @@ if __name__ == '__main__':
         if os.path.exists(str(file_idx) + '.pickle'):
             success_cnt = 0
 
-            print("Downloading papers in " + str(file_idx) + '.pickle...')
-            with open(str(file_idx) + '.pickle', "rb") as file:
-                papers_info = pickle.load(file)
-            while paper_idx < len(papers_info):
-                sleep(2)
-                success = False
-                url1 = papers_info[paper_idx]['url1']
-                if url1 != '':
-                    result = None
-                    try:
-                        result = sh.download(url1, destination='pdfs')
-                    except Exception as e:
-                        print(str(e))
-                    if result is None:
-                        logger.debug("Failed. continue...")
-                    else:
-                        success = True
-                        papers_info[paper_idx]['filename'] = result['name']
+            print('unpickle file : ' + str(file_idx) + '.pickle')
+            with open(str(file_idx) + '.pickle', 'rb') as file:
+                try:
+                    obj = pickle.load(file)
+                    success_cnt = obj['total']
+                    success_total_cnt += success_cnt
+                except EOFError as e:
+                    print(e)
+                    break
 
-                        with open(str(file_idx) + '.pickle', "wb") as file:
-                            pickle.dump(papers_info, file)
-                        with open("download_log", 'w') as file:
-                            file.write(str(file_idx) + '\n')
-                            file.write(str(paper_idx) + '\n')
-                        success_cnt += 1
-                        success_total_cnt += 1
-                url2 = papers_info[paper_idx]['url2']
-                if url2 != '' and not success:
-                    result = None
-                    try:
-                        result = sh.download(url2, destination='pdfs')
-                    except Exception as e:
-                        logger.debug(str(e))
-                    if result is None:
-                        logger.debug("Failed. continue...")
-                    else:
-                        success = True
-                        papers_info[paper_idx]['filename'] = result['name']
+            print('success total count: ' + str(success_total_cnt))
 
-                        with open(str(file_idx) + '.pickle', "wb") as file:
-                            pickle.dump(papers_info, file)
-                        with open("download_log", 'w') as file:
-                            file.write(str(file_idx) + '\n')
-                            file.write(str(paper_idx) + '\n')
-                        success_cnt += 1
-                        success_total_cnt += 1
+            for paper_id, paper_name in obj['id_name'][paper_idx:]:
+                if paper_id.find('http') != -1:
+                    continue
+
+                if os.path.exists('pdfs/' + paper_name):
+                    continue
+
+                print('try paper ' + paper_name + ' ' + str(paper_idx) + '/' + str(len(obj['id_name'])))
+                try:
+                    sh.download(paper_id)
+                except Exception as e:
+                    print(e)
+                    print('catch unknown error..')
+                    break
+
+                print('finished paper ' + paper_name + ' ' + str(paper_idx) + '/' + str(len(obj['id_name'])))
                 paper_idx += 1
+
             paper_idx = 0
             file_idx += 1
-            print(str(file_idx) + '.pickle is done. ' + ' Downloaded ' + str(success_cnt) + ' , ' + str(
-                success_total_cnt) + ' total.')
+            continue
 
-        else:
-            # seem unlikely lol..
-            break
+        break
+
+    print('job done. success total count : ' + str(success_total_cnt))

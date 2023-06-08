@@ -109,8 +109,9 @@ if __name__ == '__main__':
             return False
 
     def fuck_reCAPTCHA():
-        input("请完成人机身份验证，验证后请输入任何字符以继续")
-        return
+        print("请完成人机身份验证，验证后请输入任何字符以继续")
+
+
 
     paper_store = []
     file_idx = 0
