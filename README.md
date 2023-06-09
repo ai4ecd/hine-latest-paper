@@ -2,6 +2,7 @@
 
 this can used to create a baseline of past research on any topic you are interested in.
 
+also it can used to track weekly,monthly,yearly of your topic paper that show in google scholarship
 
 
 
