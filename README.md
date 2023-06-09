@@ -1,5 +1,9 @@
 # hine-latest-paper
 
+this can used to create a baseline of past research on any topic you are interested in.
+
+
+
 
 ## 文献追踪
 
